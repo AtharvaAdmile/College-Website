@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Ayesha Khan",
+    "course": "B.Sc. Computer Science",
+    "year": "Class of 2023",
+    "quote": "The practical approach to learning and the state-of-the-art labs provided me with the skills I needed to secure an internship at a top tech company.",
+    "photo": "https://i.pravatar.cc/150?u=ayesha"
+  },
+  {
+    "id": 2,
+    "name": "Rohan Patel",
+    "course": "B.Com. (Hons)",
+    "year": "Class of 2022",
+    "quote": "The faculty's industry experience and the diverse campus life helped me develop both academically and personally. I'm proud to be an alumnus.",
+    "photo": "https://i.pravatar.cc/150?u=rohan"
+  },
+  {
+    "id": 3,
+    "name": "Samantha Lee",
+    "course": "B.A. English Literature",
+    "year": "Class of 2024",
+    "quote": "The literature seminars were incredibly eye-opening. The professors encourage critical thinking and creativity, making every class an adventure.",
+    "photo": "https://i.pravatar.cc/150?u=samantha"
+  }
+]

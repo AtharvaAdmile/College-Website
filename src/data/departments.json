@@ -1,0 +1,50 @@
+[
+  {
+    "id": "computer-science",
+    "name": "Computer Science",
+    "category": "Science",
+    "description": "Explore the world of computing, algorithms, and software development. Our state-of-the-art labs and expert faculty prepare you for the tech industry.",
+    "duration": "3 Years",
+    "facultyCount": 8
+  },
+  {
+    "id": "physics",
+    "name": "Physics",
+    "category": "Science",
+    "description": "Delve into the fundamental principles of the universe. From quantum mechanics to astrophysics, build a strong foundation in theoretical and experimental physics.",
+    "duration": "3 Years",
+    "facultyCount": 6
+  },
+  {
+    "id": "chemistry",
+    "name": "Chemistry",
+    "category": "Science",
+    "description": "Discover the properties of matter and chemical reactions. Our comprehensive program includes organic, inorganic, and physical chemistry with extensive lab work.",
+    "duration": "3 Years",
+    "facultyCount": 7
+  },
+  {
+    "id": "mathematics",
+    "name": "Mathematics",
+    "category": "Science",
+    "description": "Develop strong analytical and problem-solving skills. Our curriculum covers pure and applied mathematics, statistics, and operational research.",
+    "duration": "3 Years",
+    "facultyCount": 5
+  },
+  {
+    "id": "commerce",
+    "name": "Commerce",
+    "category": "Commerce",
+    "description": "Master the principles of business, finance, and economics. Prepare for a successful career in corporate management, accounting, or entrepreneurship.",
+    "duration": "3 Years",
+    "facultyCount": 12
+  },
+  {
+    "id": "english",
+    "name": "English Literature",
+    "category": "Arts",
+    "description": "Explore classic and contemporary literature, enhance your critical thinking, and master the art of communication and creative writing.",
+    "duration": "3 Years",
+    "facultyCount": 6
+  }
+]

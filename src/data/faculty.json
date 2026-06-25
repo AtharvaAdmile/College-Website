@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Priya Sharma",
+    "department": "Computer Science",
+    "qualification": "Ph.D. in Computer Science",
+    "email": "priya.sharma@college.edu",
+    "photo": "https://randomuser.me/api/portraits/women/44.jpg",
+    "linkedin": "https://linkedin.com/in/priyasharma"
+  },
+  {
+    "id": 2,
+    "name": "Prof. Alan Turing",
+    "department": "Computer Science",
+    "qualification": "M.Tech in AI & Robotics",
+    "email": "alan.turing@college.edu",
+    "photo": "https://randomuser.me/api/portraits/men/32.jpg",
+    "linkedin": "https://linkedin.com/in/alanturing"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Sarah Jenkins",
+    "department": "Physics",
+    "qualification": "Ph.D. in Astrophysics",
+    "email": "sarah.jenkins@college.edu",
+    "photo": "https://randomuser.me/api/portraits/women/68.jpg",
+    "linkedin": "https://linkedin.com/in/sarahjenkins"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Rajesh Kumar",
+    "department": "Chemistry",
+    "qualification": "Ph.D. in Organic Chemistry",
+    "email": "rajesh.kumar@college.edu",
+    "photo": "https://randomuser.me/api/portraits/men/75.jpg",
+    "linkedin": "https://linkedin.com/in/rajeshkumar"
+  },
+  {
+    "id": 5,
+    "name": "Prof. Emily Chen",
+    "department": "Mathematics",
+    "qualification": "M.Sc. in Applied Mathematics",
+    "email": "emily.chen@college.edu",
+    "photo": "https://randomuser.me/api/portraits/women/21.jpg",
+    "linkedin": "https://linkedin.com/in/emilychen"
+  },
+  {
+    "id": 6,
+    "name": "Dr. Vikram Singh",
+    "department": "Commerce",
+    "qualification": "Ph.D. in Economics",
+    "email": "vikram.singh@college.edu",
+    "photo": "https://randomuser.me/api/portraits/men/46.jpg",
+    "linkedin": "https://linkedin.com/in/vikramsingh"
+  },
+  {
+    "id": 7,
+    "name": "Ms. Anita Desai",
+    "department": "Commerce",
+    "qualification": "MBA in Finance, CA",
+    "email": "anita.desai@college.edu",
+    "photo": "https://randomuser.me/api/portraits/women/57.jpg",
+    "linkedin": "https://linkedin.com/in/anitadesai"
+  },
+  {
+    "id": 8,
+    "name": "Dr. Robert Frost",
+    "department": "English Literature",
+    "qualification": "Ph.D. in Modern Literature",
+    "email": "robert.frost@college.edu",
+    "photo": "https://randomuser.me/api/portraits/men/22.jpg",
+    "linkedin": "https://linkedin.com/in/robertfrost"
+  }
+]

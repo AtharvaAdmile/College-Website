@@ -1,0 +1,38 @@
+[
+  {
+    "id": "library",
+    "title": "Central Library",
+    "description": "Over 100,000 books, journals, and digital resources.",
+    "icon": "BookOpen"
+  },
+  {
+    "id": "labs",
+    "title": "Modern Laboratories",
+    "description": "State-of-the-art equipment for Science and Computer departments.",
+    "icon": "Beaker"
+  },
+  {
+    "id": "sports",
+    "title": "Sports Complex",
+    "description": "Indoor and outdoor facilities including a gym and swimming pool.",
+    "icon": "Trophy"
+  },
+  {
+    "id": "canteen",
+    "title": "Cafeteria",
+    "description": "Hygienic and affordable food options for students and staff.",
+    "icon": "Coffee"
+  },
+  {
+    "id": "wifi",
+    "title": "Campus Wi-Fi",
+    "description": "High-speed internet access across the entire campus.",
+    "icon": "Wifi"
+  },
+  {
+    "id": "auditorium",
+    "title": "Auditorium",
+    "description": "1000-seater fully air-conditioned auditorium for events.",
+    "icon": "Mic"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "question": "What is the admission process?",
+    "answer": "Admission is based on merit. You need to fill out the online application form, submit the required documents, and if selected, complete the fee payment."
+  },
+  {
+    "id": 2,
+    "question": "Are there any scholarships available?",
+    "answer": "Yes, we offer merit-based scholarships as well as financial aid for economically weaker sections. Please refer to our scholarship portal for details."
+  },
+  {
+    "id": 3,
+    "question": "Is there a hostel facility on campus?",
+    "answer": "Yes, we provide separate hostel facilities for boys and girls with all basic amenities including Wi-Fi, laundry, and mess."
+  },
+  {
+    "id": 4,
+    "question": "What are the college timings?",
+    "answer": "Regular classes are held from 8:30 AM to 3:30 PM, Monday through Friday. Some practical sessions may extend up to 5:00 PM."
+  },
+  {
+    "id": 5,
+    "question": "Does the college provide placement assistance?",
+    "answer": "Absolutely. Our dedicated placement cell organizes career fairs, training sessions, and on-campus recruitment drives with top companies."
+  }
+]
