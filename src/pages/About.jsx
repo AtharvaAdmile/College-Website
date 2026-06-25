@@ -62,27 +62,95 @@ const About = () => {
       </section>
 
       {/* 4. Timeline */}
-      <section className="py-16 bg-slate-100 border-b border-slate-300">
-        <div className="max-w-3xl mx-auto px-4">
-          <SectionTitle title="Our Journey" />
-          <div className="space-y-6">
-            {[
-              { year: "1985", title: "College Founded", desc: "Started with 200 students and 3 major departments in Arts and Commerce." },
-              { year: "1995", title: "Science Block Inaugurated", desc: "Added B.Sc programs with state-of-the-art laboratories." },
-              { year: "2005", title: "NAAC 'A' Accreditation", desc: "Recognized for excellence in academic quality and infrastructure." },
-              { year: "2015", title: "Postgraduate Programs", desc: "Expanded offerings to include Master's degrees across disciplines." },
-              { year: "2023", title: "Innovation Center", desc: "Launched a dedicated incubation center for student startups." }
-            ].map((item, index) => (
-              <div key={index} className="flex bg-white rounded-lg shadow-sm border border-slate-200 overflow-hidden hover:shadow-md transition-shadow duration-200">
-                <div className="w-24 bg-slate-900 text-white flex items-center justify-center font-bold text-xl p-4">
-                  {item.year}
+      <section className="py-20 bg-[#FAF6F0] border-b border-amber-100/40">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-5xl font-extrabold text-[#3E5062] uppercase tracking-wider mb-3 font-serif">
+              Our Journey
+            </h2>
+            <p className="text-base md:text-lg text-slate-500 font-medium">
+              The history and milestones of our college
+            </p>
+          </div>
+
+          <div className="relative">
+            <div className="flex flex-col">
+              {[
+                { 
+                  year: "1985", 
+                  title: "College Founded", 
+                  desc: "Started with 200 students and 3 major departments in Arts and Commerce.",
+                  color: "#E05A47",
+                  lineBg: "bg-[#E05A47]",
+                  borderColor: "border-[#E05A47] text-[#E05A47]"
+                },
+                { 
+                  year: "1995", 
+                  title: "Science Block Inaugurated", 
+                  desc: "Added B.Sc programs with state-of-the-art laboratories.",
+                  color: "#3A8E9E",
+                  lineBg: "bg-[#3A8E9E]",
+                  borderColor: "border-[#3A8E9E] text-[#3A8E9E]"
+                },
+                { 
+                  year: "2005", 
+                  title: "NAAC 'A' Accreditation", 
+                  desc: "Recognized for excellence in academic quality and infrastructure.",
+                  color: "#2D3E50",
+                  lineBg: "bg-[#2D3E50]",
+                  borderColor: "border-[#2D3E50] text-[#2D3E50]"
+                },
+                { 
+                  year: "2015", 
+                  title: "Postgraduate Programs", 
+                  desc: "Expanded offerings to include Master's degrees across disciplines.",
+                  color: "#F0A83A",
+                  lineBg: "bg-[#F0A83A]",
+                  borderColor: "border-[#F0A83A] text-[#F0A83A]"
+                },
+                { 
+                  year: "2023", 
+                  title: "Innovation Center", 
+                  desc: "Launched a dedicated incubation center for student startups.",
+                  color: "#5A9A7E",
+                  lineBg: "bg-[#5A9A7E]",
+                  borderColor: "border-[#5A9A7E] text-[#5A9A7E]"
+                }
+              ].map((item, index, arr) => (
+                <div key={index} className="flex items-center min-h-[120px]">
+                  {/* Left Column: Year Badge */}
+                  <div className="w-[30%] flex justify-end pr-4 sm:pr-8">
+                    <div className={`w-20 h-20 md:w-24 md:h-24 rounded-full border-[6px] md:border-[8px] flex items-center justify-center font-bold text-lg md:text-2xl bg-white shadow-sm transition-all duration-300 hover:scale-105 ${item.borderColor}`}>
+                      {item.year}
+                    </div>
+                  </div>
+
+                  {/* Middle Column: Vertical Track + Pointer Node */}
+                  <div className="relative w-12 self-stretch flex items-center justify-center">
+                    {/* Line segment */}
+                    <div className={`absolute w-3.5 ${item.lineBg} left-1/2 -translate-x-1/2 ${index === 0 ? 'top-4 rounded-t-full' : 'top-0'} ${index === arr.length - 1 ? 'bottom-4 rounded-b-full' : 'bottom-0'}`}></div>
+                    
+                    {/* Pointer Node */}
+                    <div className="relative z-10 flex items-center justify-center">
+                      <svg className="w-10 h-10 drop-shadow-[0_1px_2px_rgba(0,0,0,0.15)]" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 20L22 12V28L8 20Z" fill={item.color} />
+                        <circle cx="26" cy="20" r="5.5" fill={item.color} />
+                      </svg>
+                    </div>
+                  </div>
+
+                  {/* Right Column: Title and Description */}
+                  <div className="w-[60%] pl-4 sm:pl-8 py-6">
+                    <h4 className="text-lg md:text-xl font-bold mb-1 transition-colors duration-200" style={{ color: item.color }}>
+                      {item.title}
+                    </h4>
+                    <p className="text-slate-600 text-sm md:text-base leading-relaxed max-w-md font-medium">
+                      {item.desc}
+                    </p>
+                  </div>
                 </div>
-                <div className="p-6 flex-1">
-                  <h4 className="text-lg font-bold text-slate-900 mb-1">{item.title}</h4>
-                  <p className="text-slate-600">{item.desc}</p>
-                </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </section>

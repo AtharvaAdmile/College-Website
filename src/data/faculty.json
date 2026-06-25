@@ -5,7 +5,7 @@
     "department": "Computer Science",
     "qualification": "Ph.D. in Computer Science",
     "email": "priya.sharma@college.edu",
-    "photo": "https://randomuser.me/api/portraits/women/44.jpg",
+    "photo": "/sharma.png",
     "linkedin": "https://linkedin.com/in/priyasharma"
   },
   {
@@ -14,7 +14,7 @@
     "department": "Computer Science",
     "qualification": "M.Tech in AI & Robotics",
     "email": "alan.turing@college.edu",
-    "photo": "https://randomuser.me/api/portraits/men/32.jpg",
+    "photo": "/turing.png",
     "linkedin": "https://linkedin.com/in/alanturing"
   },
   {
@@ -23,17 +23,17 @@
     "department": "Physics",
     "qualification": "Ph.D. in Astrophysics",
     "email": "sarah.jenkins@college.edu",
-    "photo": "https://randomuser.me/api/portraits/women/68.jpg",
+    "photo": "/jenkins.png",
     "linkedin": "https://linkedin.com/in/sarahjenkins"
   },
   {
     "id": 4,
-    "name": "Dr. Rajesh Kumar",
+    "name": "Mr. Sterling",
     "department": "Chemistry",
     "qualification": "Ph.D. in Organic Chemistry",
-    "email": "rajesh.kumar@college.edu",
-    "photo": "https://randomuser.me/api/portraits/men/75.jpg",
-    "linkedin": "https://linkedin.com/in/rajeshkumar"
+    "email": "sterling@college.edu",
+    "photo": "/sterling.png",
+    "linkedin": "https://linkedin.com/in/sterling"
   },
   {
     "id": 5,
@@ -41,26 +41,26 @@
     "department": "Mathematics",
     "qualification": "M.Sc. in Applied Mathematics",
     "email": "emily.chen@college.edu",
-    "photo": "https://randomuser.me/api/portraits/women/21.jpg",
+    "photo": "/chen.png",
     "linkedin": "https://linkedin.com/in/emilychen"
   },
   {
     "id": 6,
-    "name": "Dr. Vikram Singh",
+    "name": "Prof. Hawthorne",
     "department": "Commerce",
     "qualification": "Ph.D. in Economics",
-    "email": "vikram.singh@college.edu",
-    "photo": "https://randomuser.me/api/portraits/men/46.jpg",
-    "linkedin": "https://linkedin.com/in/vikramsingh"
+    "email": "hawthorne@college.edu",
+    "photo": "/hawthorne.png",
+    "linkedin": "https://linkedin.com/in/hawthorne"
   },
   {
     "id": 7,
-    "name": "Ms. Anita Desai",
+    "name": "Mrs. Taylor",
     "department": "Commerce",
     "qualification": "MBA in Finance, CA",
-    "email": "anita.desai@college.edu",
-    "photo": "https://randomuser.me/api/portraits/women/57.jpg",
-    "linkedin": "https://linkedin.com/in/anitadesai"
+    "email": "taylor@college.edu",
+    "photo": "/taylor.png",
+    "linkedin": "https://linkedin.com/in/taylor"
   },
   {
     "id": 8,
@@ -68,7 +68,7 @@
     "department": "English Literature",
     "qualification": "Ph.D. in Modern Literature",
     "email": "robert.frost@college.edu",
-    "photo": "https://randomuser.me/api/portraits/men/22.jpg",
+    "photo": "/frost.png",
     "linkedin": "https://linkedin.com/in/robertfrost"
   }
 ]

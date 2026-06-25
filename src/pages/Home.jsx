@@ -5,6 +5,7 @@ import Button from '../components/ui/Button';
 import heroBg from '../assets/hero-bg.png';
 import aboutImg from '../assets/about-students.png';
 import galleryEvent from '../assets/gallery-event.png';
+import galleryCampus from '../assets/gallery-campus.png';
 import Card from '../components/ui/Card';
 import SectionTitle from '../components/ui/SectionTitle';
 
@@ -181,7 +182,7 @@ const Home = () => {
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
             {[
               "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&w=400&q=80",
-              "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&w=400&q=80",
+              galleryCampus,
               "https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&w=400&q=80",
               "https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&w=400&q=80",
               "https://images.unsplash.com/photo-1577412647305-991150c7d163?ixlib=rb-4.0.3&w=400&q=80",
@@ -196,11 +197,11 @@ const Home = () => {
               </div>
             ))}
             {/* Additional gallery image */}
-            <div className="aspect-square overflow-hidden rounded-lg shadow-sm md:col-span-3">
+            <div className="h-64 md:h-80 overflow-hidden rounded-lg shadow-sm col-span-2 md:col-span-3">
               <img
                 src={galleryEvent}
                 alt="Campus Cultural Festival"
-                className="w-full h-full object-cover hover:scale-105 transition-transform duration-500 max-h-80"
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
           </div>
