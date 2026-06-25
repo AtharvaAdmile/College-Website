@@ -263,9 +263,3 @@ All content is stored as static JSON files in `src/data/`:
 ## 📝 License
 
 This project is **private** and not currently published under an open-source license.
-
----
-
-<p align="center">
-  Built with ❤️ for <strong>ASC College</strong>
-</p>
